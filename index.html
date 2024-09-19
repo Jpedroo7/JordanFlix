@@ -1,53 +1,75 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
-    <title>JordanFlix</title>
+    <title>Antirracismo</title>
 </head>
-
 <body>
-    <header>JordanFlix</header>
+    <header>
+        <h1>Antirracismo</h1>
+        <p>O antirracismo é uma luta pela igualdade racial, promovendo respeito e valorização das diversas culturas.</p>
+    </header>
 
-    <section class="chamada">
-        <div class="chamada-texto">
-            <h1>Antirracismo</h1>
-            <p>#MartinLutherKing</p>
-        </div>
-
-        <div>
-            <iframe width="560" height="315" src="https://youtu.be/CfWV7spyJaA?si=fwrsRMbQBTI_LOSC"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+    <section class="videos">
+        <h2>Vídeos</h2>
+        <iframe src="https://www.youtube.com/embed/CfWV7spyJaA" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/E_BjYPOE3ag" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/UyBf_vd5hs4" frameborder="0" allowfullscreen></iframe>
     </section>
 
-    <section class="categoria">
-        <h2>Educação Antirracista</h2>
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-                <img src="https://img.youtube.com/vi/CfWV7spyJaA/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
-                <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-                <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-                <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-                <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
-            </a>
-        </div>
+    <section class="recursos">
+        <h2>Recursos</h2>
+        <h3>Músicas</h3>
+        <ul>
+            <li>"Black Man" - Stevie Wonder</li>
+            <li>"A Vida É Desafio" - Racionais MC's</li>
+            <li>"Cores do Vento" - Pocahontas (Disney)</li>
+        </ul>
+
+        <h3>Livros</h3>
+        <ul>
+            <li>"Quem Tem Medo de Zumbi?" - Carolina Maria de Jesus</li>
+            <li>"O Olho da Rua" - Djamila Ribeiro</li>
+            <li>"O que é Racismo?" - Analu Campos</li>
+        </ul>
+
+        <h3>Poemas</h3>
+        <p>"Eu sou mais eu" - Maya Angelou</p>
+        <p>"Cota de Cores" - Adélia Prado</p>
     </section>
 
+    <section class="quiz">
+        <h2>Quiz</h2>
+        <form>
+            <p>1. O que é antirracismo?</p>
+            <label><input type="radio" name="q1" value="a"> A) Apoio ao racismo</label>
+            <label><input type="radio" name="q1" value="b"> B) Luta contra o racismo</label>
+            <label><input type="radio" name="q1" value="c"> C) Indiferença ao racismo</label>
+
+            <p>2. Qual movimento luta contra a discriminação racial?</p>
+            <label><input type="radio" name="q2" value="a"> A) Black Lives Matter</label>
+            <label><input type="radio" name="q2" value="b"> B) Green Peace</label>
+            <label><input type="radio" name="q2" value="c"> C) Movimentos LGBT</label>
+
+            <p>3. Quem escreveu "Quarto de Despejo"?</p>
+            <label><input type="radio" name="q3" value="a"> A) Jorge Amado</label>
+            <label><input type="radio" name="q3" value="b"> B) Carolina Maria de Jesus</label>
+            <label><input type="radio" name="q3" value="c"> C) Clarice Lispector</label>
+
+            <p>4. O que são cotas raciais?</p>
+            <label><input type="radio" name="q4" value="a"> A) Medidas de inclusão</label>
+            <label><input type="radio" name="q4" value="b"> B) Exclusão de minorias</label>
+            <label><input type="radio" name="q4" value="c"> C) Aumento de impostos</label>
+
+            <p>5. Quem é Djamila Ribeiro?</p>
+            <label><input type="radio" name="q5" value="a"> A) Ativista e escritora</label>
+            <label><input type="radio" name="q5" value="b"> B) Cantora</label>
+            <label><input type="radio" name="q5" value="c"> C) Politica conservadora</label>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 </body>
-
 </html>
